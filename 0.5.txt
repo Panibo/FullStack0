@@ -1,0 +1,16 @@
+selain->palvelin: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note
+
+selain->palvelin: HTTP GET https://studies.cs.helsinki.fi/exampleapp/spanotes
+palvelin-->selain: HTML-koodi
+
+selain->palvelin: HTTP GET https://studies.cs.helsinki.fi/exampleapp/main.css
+palvelin-->selain: main.css
+
+selain->palvelin: HTTP GET https://studies.cs.helsinki.fi/exampleapp/spa.js
+palvelin-->selain: spa.js
+
+selain->palvelin: HTTP GET https://studis.cs.helsinki.fi/exampleapp/data.json
+palvelin-->selain: [{"content":"adad","date":"2022-10-29T18:53:56.343Z"},...]
+
+selain->palvelin: HTTP GET https://studies.cs.helsinki.fi/favicon.ico
+palvelin-->selain: HTML-koodi
